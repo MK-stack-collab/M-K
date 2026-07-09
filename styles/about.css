@@ -11,23 +11,24 @@ body{
 nav{
   margin-top: 20px;
   display: flex;
-  justify-content:space-between;
+ justify-content:space-between;
   align-items: center;
   background: #e0e0e0;
 border-radius: 10px;
 box-shadow: 10px 10px 30px #adadad,
             -20px -20px 40px #ffffff;
 }
-nav .logo{
+nav img{
    width: 50px;
     height:auto ;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
     margin: 10px;
+    margin-left: 30px;
      filter: drop-shadow(0 0 8px rgb(255, 255, 255));
     
 }
-nav ul{
+nav .left{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,32 +37,17 @@ nav ul{
   padding-left:100px ;
   font-weight: bolder;
 }
-nav ul li{
+nav .left li a{
   transition: 0.3s;
 }
-nav ul li:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
-nav .sec{
-  padding-right: 100px;
-  font-size: 1.5rem;
-}
-nav .sec li a{
+nav .left li a{
   color: black;
+  text-decoration: none;
+  audio
 }
-
-nav .sec li i {
-  
-  transition: 0.3s ease-in;
-}
-
-nav .sec li i:hover{
-  background-color: rgb(1, 7, 12);
-  border-radius: 30px;
-  position: static;
-  color: white;
-  padding: 7px;
+nav .left li a:hover{
+   color: grey;
+  cursor: pointer;
 }
 .hero{
     display: flex;
