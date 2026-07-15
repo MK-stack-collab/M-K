@@ -101,6 +101,7 @@ h2{
 h1{
   display: inline-block;
   line-height: 1.4;
+  font-family: 'tangerine', sans-serif;
     /* font-size: 4rem; */
     font-size:clamp(2rem, 5vw, 4rem);
 }
@@ -127,7 +128,7 @@ footer{
 }
 .hero button{
   padding: 10px;
-  width:100px ;
+  /* width:100px ; */
   margin-top: 20px;
   border-radius: 5px;
   border: none;
@@ -136,21 +137,18 @@ footer{
   font-weight: bold;
   transition: 0.5s;
   margin-top: 40px;
+  font-family: 'tangerine', sans-serif;
 }
 .hero button:hover{
   /* background-color: rgb(30, 29, 29); */
   transform: scale(1.2);
   cursor: pointer;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 .hero span{
 margin: 20px;
 margin-top: 40px;
 
-}
-.hero span:hover{
-  text-decoration: underline;
-  cursor: pointer;
 }
 @media (max-width:492px) {
   nav{
@@ -219,4 +217,13 @@ margin-top: 40px;
   body{
     background-color: white;
   }
+}
+div span a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }

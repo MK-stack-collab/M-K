@@ -43,11 +43,10 @@ nav .left li a{
 nav .left li a{
   color: black;
   text-decoration: none;
-  audio
 }
 nav .left li a:hover{
    color: grey;
-  cursor: pointer;
+  cursor:  pointer;
 }
 .hero{
     display: flex;
