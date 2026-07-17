@@ -60,19 +60,19 @@ nav .left li a:hover{
 margin-top: 30px;
 }
 .hero .sec li {
-  color: black;
-}
-
-.hero .sec li i {
-  transition: 0.3s ease-in;
-}
-
-.hero .sec li i:hover{
-  background-color: rgb(1, 7, 12);
-  border-radius: 30px;
-  /* position: static; */
   color: white;
   padding: 7px;
+  background-color: rgb(1, 7, 12);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
+.hero .sec li:hover{
+transform: scale(1.4);
 }
 .hero{
     display: flex;
@@ -203,14 +203,40 @@ margin-top: 40px;
     
   }
 
-@media (max-width: 768px){
+@media (max-width: 500px){
+  nav{
+    margin-left: 33px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  nav .left{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  }
+  nav .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
   .hero{
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
   .hero img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    padding-left: 30px;
+  }
+  .hero p{
+     display: inline-block
   }
 }
 @media (prefers-color-scheme: light) {
