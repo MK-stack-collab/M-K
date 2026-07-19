@@ -105,6 +105,16 @@ body{
 
 }
 
+.menu{
+
+    display:none;
+
+    font-size:1.6rem;
+
+    cursor:pointer;
+
+}
+
 .hero{
     max-width:1200px;
     margin:auto;
@@ -257,24 +267,49 @@ h1{
     color:white;
     transform:translateY(-3px);
 }
-@media (max-width:500px){
+@media (max-width:768px){
 
-nav{
-    flex-direction:column;
-    gap:15px;
-    padding:15px;
+
+}
+/* Phones */
+@media (max-width: 480px) {
+.menu{
+
+    display:block;
+
 }
 
-nav .left{
+.nav-links{
+    position:absolute;
+    top:85px;
+    left:0;
+
+    width:100%;
+    background:white;
     flex-direction:column;
-    gap:15px;
-    padding:0;
+
+    align-items:center;
+    gap:25px;
+    padding:30px 0;
+
+    display:none;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
 }
 
 .hero{
     flex-direction:column;
     text-align:center;
     padding:20px;
+    text-align: center;
 }
 
 .hero img{
@@ -288,24 +323,17 @@ nav .left{
     max-width:90%;
 }
 
-.hero .sec{
-    padding:0;
+
+.social-links{
+    margin:10px;
     justify-content:center;
     flex-wrap:wrap;
+    margin-top: 10px;
 }
 
-}
-div span a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-@media (max-width:768px){
 
+/* Tablets */
+@media (max-width: 768px) {
 .hero-buttons{
     justify-content:center;
     flex-wrap:wrap;
@@ -317,11 +345,8 @@ div span a{
 }
 
 .hero{
-
     flex-direction:column-reverse;
-
     text-align:center;
-
     padding:50px 20px;
 
 }
@@ -344,4 +369,9 @@ div span a{
     justify-content:center;
 
 }
+}
+
+/* Small laptops */
+@media (max-width: 1024px) {
+
 }
