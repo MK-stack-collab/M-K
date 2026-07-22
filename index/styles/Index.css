@@ -25,7 +25,7 @@ body.dark-mode{
     justify-content:space-between;
     align-items:center;
 
-    border-radius:26px;
+    border-radius:30px;
     box-shadow:0 8px 25px rgba(0,0,0,.08);
     border: 0.5px solid rgb(62, 61, 61);
     
@@ -67,30 +67,7 @@ body.dark-mode .navbar{
   list-style: none;
 }
 
-.sun{
-    display:none;
-}
 
-body.dark-mode .moon{
-    display:none;
-}
-
-body.dark-mode .sun{
-    display:inline-block;
-}
-
-body.dark-mode .moon{
-    display:none;
-}
-
-body.dark-mode .sun{
-    display:inline;
-}
-
-
-.hidden{
-    display:none;
-}
 .nav-links a{
     color: black;
     text-decoration:none;
@@ -106,7 +83,7 @@ body.dark-mode .nav-links a{
 }
 .nav-links li a:hover{
 
-    color:blanchedalmond;
+    color:rgb(50, 48, 48);
 
 }
 
