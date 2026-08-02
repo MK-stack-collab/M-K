@@ -28,3 +28,5 @@ lightdarkbtn.addEventListener("click", () => {
         themeIcon.classList.replace("fa-sun", "fa-moon");
     }
 });
+
+

@@ -5,7 +5,6 @@ const moon = document.querySelector(".moon");
 const sun = document.querySelector(".sun");
 const lightdarkbtn = document.getElementById("lightdarkbtn");
 const body = document.body;
-const themeIcon = lightdarkbtn.querySelector("i");
 
 menu.onclick = function () {
 
@@ -18,6 +17,7 @@ menu.onclick = function () {
     }
 
 }
+const themeIcon = lightdarkbtn.querySelector("i");
 
 lightdarkbtn.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
@@ -28,3 +28,5 @@ lightdarkbtn.addEventListener("click", () => {
         themeIcon.classList.replace("fa-sun", "fa-moon");
     }
 });
+
+
